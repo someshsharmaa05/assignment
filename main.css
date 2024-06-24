@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    cursor: pointer;
+}
+#Header{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Header1{
+    display: flex;
+    justify-content: space-between;
+    color:  #000042;
+}
+
+#Header2 {
+    display: flex;
+    justify-content: space-between;
+    color:  #000042;
+    align-items: center;
+}
+#Header3 {
+    display: flex;
+    justify-content: space-between;
+    color:  #000042;
+    align-items: center;
+}
+#phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#vid{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+
+#in[type="text"] {
+    width: 600px; /* Set the desired width */
+    padding: 10px; /* Optional: Adjust padding for spacing inside the input */
+    font-size: 16px; /* Optional: Adjust font size */
+    border: 1px solid #ccc; /* Optional: Add border for visual distinction */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+
+/* 
+CSS for the our  purpose section
+*/
+
+#Section_A {
+  background-color: #000042;
+  color: whitesmoke;
+}
+#Section_A_purpose {
+  padding-top: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+#Section_A_bottom {
+  display: flex;
+}
+
+#Section_A_left {
+  flex: 1;
+  padding-left: 80px;
+  padding-bottom: 40px;
+}
+#Section_A_right {
+  flex: 1;
+  padding-right: 80px;
+  padding-bottom: 40px;
+}
+#SP1 {
+  font-size: 60px;
+}
+#SP2 {
+  font-size: 35px;
+}
+
+/* 
+CSS for the our vision section
+*/
+
+#Section_B {
+  background-image: url("static/sectionB.png");
+  color: #000042;
+  text-align: center;
+}
+#SP3 {
+  padding-top: 30px;
+  font-size: 40px;
+}
+#SP4 {
+  font-size: 45px;
+}
+#SP5 {
+  font-size: 100px;
+  padding-bottom: 50px;
+}
+
+/* 
+CSS for the our Focus section
+*/
+#Section_C {
+  color: #000042;
+  text-align: center;
+}
+
+#SP6 {
+  font-size: 40px;
+}
+#SP7 {
+  font-size: 45px;
+}
+#SP8 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+/* 
+CSS for the Slider section
+*/
+
+.slider-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cards-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 100%; /* Adjust as per your design */
+  margin-right: 20px; /* Adjust spacing between cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: rgb(211, 238, 230);
+}
+
+.card h3 {
+  font-size: 25px;
+  color: #000042;
+}
+.card p {
+  font-size: 20px;
+  color: #000042;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.slider-arrow.prev {
+  left: 10px;
+}
+
+.slider-arrow.next {
+  right: 10px;
+}
+
+/* 
+CSS for the For everyone section
+*/
+
+#Section_E {
+  color: #000042;
+  text-align: center;
+}
+
+#SP8 {
+  font-size: 40px;
+}
+#SP9 {
+  font-size: 35px;
+}
+
+/* 
+CSS for the 3 card section
+*/
+.card-container1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  flex: 0 0 calc(33.33% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card1 h3 {
+  font-size: 25px;
+  color: #000042;
+}
+.card1 p {
+  font-size: 20px;
+  color: #000042;
+}
+
+.card1 img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-content1 {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.card1 h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.card1 p {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+/* 
+CSS for the For every purpose section
+*/
+#Section_G {
+  color: #000042;
+  text-align: center;
+  background-color: rgb(233, 255, 246);
+}
+
+#SP10 {
+  padding-top: 30px;
+  font-size: 40px;
+  color: #000042;
+}
+#SP11 {
+  font-size: 35px;
+  color: #000042;
+}
+
+/* 
+CSS for the grid section
+*/
+
+.grid-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 80vh; /* Adjust as needed */
+  padding: 80px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+}
+
+.grid-item {
+  background-color: #ffffff; /* Background color of grid items */
+  text-align: center; /* Center text inside grid items */
+}
+
+.grid-item img {
+  max-height: 310px;
+  max-width: 500px;
+}
+
+/* 
+CSS for bottom section
+*/
+
+#Section_H {
+  background-image: url("static/bottom.png");
+  color: #ffffff;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
